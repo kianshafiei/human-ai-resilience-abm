@@ -1,0 +1,9 @@
+[project]
+name = "hai-abm"
+version = "0.1.0"
+description = "Agent-based simulation of human-AI team resilience under disruption"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
